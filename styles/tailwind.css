@@ -1,0 +1,25 @@
+/* styles/tailwind.css */
+
+/* Extending Tailwind Utility Classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional Custom Classes */
+@layer components {
+    .btn-primary {
+        @apply bg-blue-600 text-white px-4 py-2 rounded-lg shadow-md transition duration-300;
+    }
+
+    .btn-primary:hover {
+        @apply bg-blue-700;
+    }
+
+    .card {
+        @apply bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300;
+    }
+
+    .section-title {
+        @apply text-3xl font-bold text-center text-gray-800 my-6;
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study MBBS Abroad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shadcn-ui/dist/index.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-blue-700 text-white p-4 flex justify-between items-center shadow-md">
+        <h1 class="text-2xl font-bold">Study MBBS Abroad</h1>
+        <nav>
+            <a href="#" class="px-4 py-2 hover:underline">Home</a>
+            <a href="#apply" class="px-4 py-2 hover:underline">Apply Now</a>
+            <a href="#countries" class="px-4 py-2 hover:underline">Countries</a>
+            <a href="#contact" class="px-4 py-2 hover:underline">Contact</a>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="relative w-full h-screen bg-gradient-to-br from-blue-600 to-purple-700 flex items-center justify-center text-white text-center p-8">
+        <div class="backdrop-blur-lg bg-white/10 p-12 rounded-3xl shadow-xl">
+            <h1 class="text-5xl font-extrabold mb-4 animate-fade-in">Study MBBS in Russia, Georgia & Philippines</h1>
+            <p class="text-lg max-w-2xl mx-auto animate-fade-in">Affordable, globally recognized medical degrees with world-class infrastructure.</p>
+            <a href="#apply" class="mt-6 inline-block px-6 py-3 bg-blue-500 hover:bg-blue-700 rounded-lg text-white font-bold shadow-md transition-all duration-300">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- Countries Section -->
+    <section id="countries" class="py-16 px-8 text-center">
+        <h2 class="text-4xl font-bold mb-8">Why Choose These Countries?</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300">
+                <h3 class="text-2xl font-semibold mb-2">Russia</h3>
+                <p class="text-gray-600">Affordable tuition, top medical universities, globally recognized degrees.</p>
+                <a href="russia.html" class="mt-4 inline-block px-4 py-2 bg-blue-600 hover:bg-blue-800 text-white font-bold rounded-lg shadow-md transition-all duration-300">
+                    Apply Now
+                </a>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300">
+                <h3 class="text-2xl font-semibold mb-2">Georgia</h3>
+                <p class="text-gray-600">World-class medical education, English-taught courses, European standards.</p>
+                <a href="georgia.html" class="mt-4 inline-block px-4 py-2 bg-green-600 hover:bg-green-800 text-white font-bold rounded-lg shadow-md transition-all duration-300">
+                    Apply Now
+                </a>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-300">
+                <h3 class="text-2xl font-semibold mb-2">Philippines</h3>
+                <p class="text-gray-600">American-based curriculum, affordable fees, high FMGE pass rate.</p>
+                <a href="philippines.html" class="mt-4 inline-block px-4 py-2 bg-red-600 hover:bg-red-800 text-white font-bold rounded-lg shadow-md transition-all duration-300">
+                    Apply Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apply Form -->
+    <section id="apply" class="py-16 bg-gray-200">
+        <div class="max-w-lg mx-auto bg-white p-8 rounded-xl shadow-lg">
+            <h2 class="text-3xl font-bold mb-6 text-center">Apply Now</h2>
+            <form class="space-y-4">
+                <input type="text" placeholder="Full Name" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:border-blue-500">
+                <input type="email" placeholder="Email" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:border-blue-500">
+                <input type="tel" placeholder="Phone Number" class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:border-blue-500">
+                <select class="w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:border-blue-500">
+                    <option>Choose Your Country</option>
+                    <option>Russia</option>
+                    <option>Georgia</option>
+                    <option>Philippines</option>
+                </select>
+                <button type="submit" class="w-full py-3 bg-blue-600 hover:bg-blue-800 text-white font-bold rounded-lg shadow-lg transition-all duration-300">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-blue-700 text-white text-center py-6 mt-16">
+        <p>&copy; 2025 Study MBBS Abroad. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

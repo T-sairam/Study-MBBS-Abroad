@@ -1,0 +1,15 @@
+{
+    "name": "study-mbbs-abroad",
+    "version": "1.0.0",
+    "description": "Landing Page for Study MBBS Abroad",
+    "scripts": {
+      "build": "postcss styles/tailwind.css -o styles/main.css",
+      "start": "live-server"
+    },
+    "dependencies": {
+      "tailwindcss": "^3.0.0",
+      "autoprefixer": "^10.0.0"
+    },
+    "devDependencies": {}
+  }
+  
